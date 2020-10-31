@@ -7,11 +7,23 @@
   bottom: 0;
   margin:20px;
   z-index:2;
-  width:100%;
+  width:90%;
+  background-color: rgb(240, 234, 234);
 }
-
+.app__formcontrol{
+  display: flex !important;
+  flex-direction: row !important;
+}
 img{
   margin-top: 30px;
   height:100px;
   width:150px;
+}
+
+.app__input{
+  flex:1;
+}
+
+.app__icon{
+  flex:0;
 }
